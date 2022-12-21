@@ -1,6 +1,6 @@
 #include <iostream>
 
-int main(int arg, char*argv [])
+int main(int arg, char* argv[])
 {
 	int a = 0;
 
@@ -10,11 +10,11 @@ int main(int arg, char*argv [])
 	{
 		std::cout << "YES";
 	}
-	
+
 	else
-		{	
+	{
 		std::cout << "NO";
-		}
+	}
 
 	return EXIT_SUCCESS;
 }

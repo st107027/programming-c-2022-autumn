@@ -1,4 +1,5 @@
 #include <iostream>
+
 int main(int argc, char* argv[])
 {
 	int h1 = 0;
@@ -24,7 +25,7 @@ int main(int argc, char* argv[])
 	std::cout << "Seconds(<60) - ";
 	std::cin >> s2;
 
-	std::cout << "Difference in time in secondsS - " <<3600*(h2-h1)+60*(m2-m1)+(s2-s1) << std::endl;
+	std::cout << "Difference in time in secondsS - " << 3600 * (h2 - h1) + 60 * (m2 - m1) + (s2 - s1) << std::endl;
 
 	return EXIT_SUCCESS;
 }

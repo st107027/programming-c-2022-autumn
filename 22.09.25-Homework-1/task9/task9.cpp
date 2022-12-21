@@ -1,11 +1,11 @@
 #include <iostream>
+
 int main(int argc, char* argv[])
 {
 	int x = 0;
 	int p2 = 0;
 	int p4 = 0;
 
-	std::cout << "Enter the number - ";
 	std::cin >> x;
 
 	p2 = x * x;
